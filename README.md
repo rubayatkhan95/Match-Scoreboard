@@ -11,7 +11,7 @@ Welcome to the VanillaJS Match Scoreboard project, a sleek and intuitive web app
 
 ### Add New Match:
 
-- Easily add a new match to the scoreboard with a user-friendly "Add Match" button.
+- Easily add a new match to the scoreboard with a user-friendly "Add New Match" button.
  
 ### Increment and Decrement Inputs:
 
