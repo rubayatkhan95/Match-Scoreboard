@@ -206,7 +206,7 @@ h1.name {
   transform: scale(0.9);
 }
 
-.lws-reset,
+.score-reset,
 .lws-delete {
   background-color: transparent;
   border: none;
@@ -216,7 +216,7 @@ h1.name {
   transition: all 0.3s;
 }
 
-.lws-reset {
+.score-reset {
   display: flex;
   gap: 5px;
   align-items: center;

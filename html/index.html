@@ -6,7 +6,6 @@
         <meta name="author" content="Rubayat Shusmita Khan">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Scoreboard</title>
-        <link rel="icon" type="image/x-icon" href="./image/favicon.png" />
         <link rel="stylesheet" href="./style.css" />
         <script src="https://unpkg.com/redux@4.2.1/dist/redux.min.js"></script>
     </head>
@@ -17,11 +16,7 @@
             <header class="header">
                 <div class="container">
                     <div class="header-wrapper">
-                        <img
-                            src="./image/lws-logo 1.svg"
-                            alt="logo"
-                            class="logo"
-                        />
+                        <h1 class="name"></h1>
                         <h1 class="name">Scoreboard</h1>
                         <h5 class="total">Total</h5>
                     </div>
@@ -29,10 +24,6 @@
             </header>
             <!-- matches  -->
             <div  id="container" class="all-matches container">
-                <!-- Each form tag is Each row, This will render multiple times on Clicking 'Add Another Match' -->
-                <div id="matchesContainer" class="space-y-5">
-
-                </div>
                 <div class="match">
                     <div class="wrapper">
                         <button class="lws-delete">
@@ -46,7 +37,7 @@
                             <input
                                 type="number"
                                 name="increment"
-                                class="lws-increment"
+                                class="score-increment"
                                 id="increment"
                             />
                         </form>
@@ -55,7 +46,7 @@
                             <input
                                 type="number"
                                 name="decrement"
-                                class="lws-decrement"
+                                class="score-decrement"
                                 id="decrement"
                             />
                         </form>
@@ -67,8 +58,8 @@
             </div>
             <!-- for adding another matches -->
             <div class="add_match">
-                <button class="btn lws-addMatch" id="add">Add Another Match</button>
-                <button class="lws-reset" id="resetCounter">
+                <button class="btn score-add-match" id="add">Add New Match</button>
+                <button class="score-reset" id="resetCounter">
                     <svg
                         fill="none"
                         width="24"

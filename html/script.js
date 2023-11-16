@@ -81,8 +81,8 @@ inputBoxIncrementEl.addEventListener("keydown", (event)=>{
 
 resetCounterEl.addEventListener("click", ()=>{
     var existingSection = document.querySelector('.match')
-    existingSection.querySelector('.lws-increment').value = '';
-    existingSection.querySelector('.lws-decrement').value = '';
+    existingSection.querySelector('.score-increment').value = '';
+    existingSection.querySelector('.score-decrement').value = '';
     store.dispatch(reset())
 })
 
@@ -105,8 +105,8 @@ addEl.addEventListener("click", () => {
     matchNameElement.textContent = "Match " + matchCount
 
     //clear the input value if needed
-    newSection.querySelector('.lws-increment').value = '';
-    newSection.querySelector('.lws-decrement').value = '';
+    newSection.querySelector('.score-increment').value = '';
+    newSection.querySelector('.score-decrement').value = '';
     document.getElementById("container").appendChild(newSection)
 })
 
